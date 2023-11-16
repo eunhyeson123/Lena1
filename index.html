@@ -12,6 +12,7 @@
 body{
     width: 1200px;
     height: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -23,6 +24,8 @@ body{
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 20px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .dropdown{
     position : absolute;
@@ -100,13 +103,14 @@ article{
 
 
 @media screen and (max-width: 768px) {
-  
     body {
         font-size: 16px;
+        max-width: 100%; 
     }
     .center {
         font-size: 30px;
         letter-spacing: 10px;
+        
     }
     .dropdown {
         top: 30%;
@@ -123,6 +127,7 @@ article{
         max-width: 80%;
     }
 }
+
 </style>
 </head>
 <body>
