@@ -32,6 +32,10 @@ body{
     display : inline-block;            
     top: 30%;
     left: 44%;
+  
+}
+.dropdown a{
+    text-decoration: none;
     font-size: 14px;
     color: rgb(168, 166, 166);
 }
@@ -40,6 +44,7 @@ body{
     color: pink;
 }
 .menu{
+    
     display : none;
     position : absolute;
     z-index : 2;
@@ -89,7 +94,7 @@ article{
 .img-box img{
     position:absolute;
     width: 100%;
-    height: auto;/
+    height: auto;
 }
 .img-box img.img-hover{
     display:none;
@@ -134,7 +139,7 @@ article{
 <header>
 <div class="center">LENA SON</div>
 <div class="dropdown">
-    <span class="dropbtn">Project</span>
+    <span class="dropbtn"> <a href="https://lena2.netlify.app/">Project</a></span>
     <div class="menu">
         <a href="https://lena2.netlify.app/">Poster</a>
         <a href="https://lena3.netlify.app/">Photo</a>
@@ -149,8 +154,8 @@ article{
 <section>
    <article>
     <div class="img-box">
-        <img class="img" src="./images/window.png" alt="" >
-        <img class="img-hover" src="./images/window2.png" alt="">
+        <img class="img" src="./images/window.png" alt="window image" >
+        <img class="img-hover" src="./images/window2.png" alt="window image2">
     </div>
    </article>
 </section>
